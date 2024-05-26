@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+  .middle-card{
+    width: 100%;
+  }
+}
+
+.submit{
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.submit .container{
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.submit .container p:first-child{
+  font-size: 28px;
+  color: green;
+  font-weight: 600;
+}
+
+.submit .container p:last-child{
+  font-size: 18px;
+  font-weight: 500;
+}
+.submit .container p:last-child a{
+  text-decoration: underline;
+}
